@@ -54,6 +54,7 @@ module.exports = function (ctx) {
 
     // Full list of options: https://quasar.dev/quasar-cli/quasar-conf-js#Property%3A-build
     build: {
+      distDir: './docs',
       vueRouterMode: 'hash', // available values: 'hash', 'history'
 
       // rtl: false, // https://quasar.dev/options/rtl-support

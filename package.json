@@ -2,7 +2,7 @@
   "name": "poolda-page",
   "version": "0.0.1",
   "description": "A Quasar Framework app",
-  "productName": "Quasar App",
+  "productName": "풀다 poolda",
   "cordovaId": "org.cordova.quasar.app",
   "capacitorId": "",
   "author": "greatleee <changdae.lee93@gmail.com>",
