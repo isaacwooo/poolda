@@ -441,7 +441,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f2f5fa;
+  background-color: #e1dcd94f;
 }
 
 .section-title {
@@ -854,7 +854,6 @@ section {
 .faq .accordion-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -863,11 +862,12 @@ section {
 }
 
 .faq .accordion-list .icon-help {
-  font-size: 24px;
+  font-size: 15px;
   position: absolute;
+  margin-top: 4px;
   right: 0;
   left: 20px;
-  color: #b1c0df;
+  color: #32435f;
 }
 
 .faq .accordion-list .icon-show, .faq .accordion-list .icon-close {
@@ -886,12 +886,16 @@ section {
   display: none;
 }
 
+.faq .accordion-list a {
+  color: #32435f;
+}
+
 .faq .accordion-list a.collapsed {
-  color: #343a40;
+  color: #32435f;
 }
 
 .faq .accordion-list a.collapsed:hover {
-  color: #5777ba;
+  color: #a67f78;
 }
 
 .faq .accordion-list a.collapsed .icon-show {
